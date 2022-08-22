@@ -1,0 +1,36 @@
+.slider_contanier{
+    position:relative;
+    width: 1000px;
+    height: 700px;
+    overflow:hidden;
+    
+    
+    
+}
+.img_div{
+    display:flex;
+    height: 100% !important;
+    transition: 1s;
+    
+}
+.slide_img{
+    height: 100%;
+    
+    object-fit: contain;
+}
+.prev{
+    position:absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 40px;
+    z-index:1;
+    color:#383f30
+}
+.next{
+    position:absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 40px;
+    z-index:1;
+    color:#383f30;
+}

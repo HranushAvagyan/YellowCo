@@ -1,0 +1,32 @@
+.navbar-div{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.header{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+.div-logo{
+    width: 152px;
+    
+    
+    
+}
+.logo{
+    max-width: 100%;
+}
+@media (max-width:767px){
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+}

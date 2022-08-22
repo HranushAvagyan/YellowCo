@@ -1,0 +1,56 @@
+.description{
+    padding-top:50px;
+    /* width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+.description-header{
+    color:#1c2018;
+    font-family: freight-big-pro;
+    font-size: 45px;
+    font-weight:500;
+    letter-spacing:1.85px;
+    line-height:1.2em;
+    margin: 1em 0 0.3em;
+    
+    
+    
+}
+.description-small{
+    
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    margin: 1em 0 0.3em;
+    color:#080808;
+}
+.subscribe-button{
+    margin-top:1.8em;
+    border: #080808 2px solid;
+    width: 190px;
+    padding: 8px;
+    text-align: center;
+}
+.description-link{
+    text-decoration: none;
+    color:#1c2018c2;
+    font-size: 11px;
+    font-family: 'Karla', sans-serif;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+.subscribe-button:hover{
+    background-color: #1c2018;
+    
+
+}
+.subscribe-button:hover .description-link{
+    color:white;
+}
+

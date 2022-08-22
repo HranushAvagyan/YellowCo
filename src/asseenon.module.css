@@ -1,0 +1,33 @@
+.main{
+    display:flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.ass-seen-on{
+    text-align: center;
+    font-family: 'Karla';
+    font-size: 16px;
+    color:#1c2018;
+    letter-spacing: .1em;
+    padding: 20px;
+}
+.seen__block{
+    display:flex;
+   
+
+}
+.seen__block__boxes{
+    max-width: 30%;
+}
+.seen__img{
+    max-width: 100%;
+}
+@media (max-width:767px) {
+    .seen__block{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+       
+    
+    }
+}
